@@ -1,12 +1,12 @@
 package jogo_xadrez;
 
+import boardgame.Posicao;
+
 public class Program {
 
 	public static void main(String[] args) {
-		System.out.println("Olá mundo!");
-		System.out.println("Outro commit");
-		System.out.println("Mais um commit");
-
+		Posicao pos = new Posicao(10, 20);
+		System.out.println(pos);
 	}
 
 }
